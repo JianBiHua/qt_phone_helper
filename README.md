@@ -1,9 +1,6 @@
 # qt_phone_helper
 qt 手机助手
 
-# qt_phone_helper
-qt高仿360安全卫士
-
 说明：
 改代码写于2017年，所以现在的qt编译器可能有部分代码已经不相同了。
 
