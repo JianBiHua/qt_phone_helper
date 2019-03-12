@@ -1,6 +1,10 @@
 # qt_phone_helper
 qt 手机助手
 
+效果图地址:
+https://blog.csdn.net/dkaily1314/article/details/65437386
+
+
 说明：
 改代码写于2017年，所以现在的qt编译器可能有部分代码已经不相同了。
 
