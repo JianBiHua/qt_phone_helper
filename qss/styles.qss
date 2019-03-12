@@ -1,0 +1,132 @@
+QMainWindow{
+    border-image: url(:/images/LoginBK.jpg);
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(:/images/checkbox_unchecked.png);
+}
+
+QCheckBox::indicator:checked {
+    image: url(:/images/checkbox_checked.png);
+}
+
+QPushButton{
+    border:none;
+}
+
+QTabWidget::pane{
+        border:none;
+}
+
+QTabWidget{
+        border:none;
+}
+
+QTabWidget::tab-bar {
+    max-width:300px;
+    background-color: #FF0000;
+}
+
+QTabBar::tab {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    min-width: 180px;
+    min-height: 30px;
+    background-color: #7ACD99;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+QTabBar::tab:selected {
+    background-color: #FFFFFF;
+    color: #42b76a;
+}
+
+
+*[tbmyphone_test="true"] {
+    background-color: #42B76A;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+*[tbmyphone_test="true"]:hover {
+    background-color: #32A75A;
+}
+
+
+*[tbmyphone_listitem="true"] {
+    color:#FFFFFF;
+    background-color: #9493E1;
+}
+*[tbmyphone_listitem="true"]:hover {
+    background-color: #8483D1;
+}
+
+*[tbmyphone_label="true"] {
+    color:#FFFFFF;
+    font-family: \"微软雅黑\";
+    font-size: 18px;
+    font-weight:bold;
+}
+
+*[tbmyphone_apps="true"] {
+    background-color: #46ABED;
+}
+*[tbmyphone_apps="true"]:hover {
+    background-color: #369BDD;
+}
+
+*[tbmyphone_installApps="true"] {
+    background-color: #F79A32;
+}
+*[tbmyphone_installApps="true"]:hover {
+    background-color: #E78A22;
+}
+
+*[tbmyphone_myPhoto="true"] {
+    background-color: #72C046;
+}
+*[tbmyphone_myPhoto="true"]:hover {
+    background-color: #62B036;
+}
+
+*[tbmyphone_files="true"] {
+    background-color: #9493E1;
+}
+*[tbmyphone_files="true"]:hover {
+    background-color: #8483D1;
+}
+
+*[settingdialog="true"] {
+    border: 0px;
+}
+
+*[settingdialog="true"]::item:hover {
+    background: #4F42B76A;
+}
+
+*[settingdialog="true"]::item:selected {
+    background: #42B76A;
+}
+
+*[mainwindow="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+*[download="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(0xA0, 0xA0, 0xA0);
+}
+
+/* 菜单栏按下时 */
+*[ToolButtonTabSelected="true"] { /* italicize selected tabs */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+    stop:0 #00000000, stop: 0.3 #3FFFFFFF,
+    stop:1 #7FFFFFFF);
+}
